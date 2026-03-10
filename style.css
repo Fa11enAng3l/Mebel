@@ -34,11 +34,10 @@ body {
 
 /* Задание 2: Hero Page */
 .hero {
-    background-image: url('img/hero-bg.jpg'); /* Укажи путь к фону */
+    background-image: url('img2/8768c853b0c588bb91e4eddc6af0e5a2c92d84f7.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    color: #fff;
+    min-height: 80vh; /* Чтобы секция была высокой */
 }
 
 .hero-content {
@@ -95,4 +94,5 @@ body {
     padding: 30px 0;
     text-align: center;
     color: #888;
+
 }
